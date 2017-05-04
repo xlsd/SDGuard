@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "as_one" => "413890968@qq.com" }
   s.source       = { :git => "https://github.com/giveMeHug/Guard.git", :tag => s.version }
-  s.source_files = "Guard/*.{h,m}"
+  s.source_files = 'Guard.{h,m}'
   s.requires_arc = true
 end
